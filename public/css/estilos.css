@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a63c6;
+}
+
+header,
+section,
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #d4d7ff;
+    text-align: center;
+}
+
+footer p {
+    display: inline;
+    vertical-align: middle;
+}
+
+footer div {
+    margin: 30px;
+}
+
+footer a:hover {
+    color: rgb(96, 184, 15);
+    font-size:large;
+    transition: 2s;
+}
